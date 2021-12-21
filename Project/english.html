@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Demo</title>
+<meta charset="UTF-8">
+<meta name="keywords" content="put imp words from ur webpage" >
+<meta name="author" content="put name of author">
+<meta name="description" content="put short descr">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .section-container{
+        background-color:lightblue;
+        height: 105vh;
+        background-size:cover;
+    
+    }
+    .book-description{
+        display:flex;
+        flex-direction:row;
+        height:300px;
+        flex-wrap:wrap;
+        padding:16px;
+        
+    }
+    .book-image{
+        border-radius:20px;
+        margin-right:30px;
+        justify-content:center;
+        height:200px;
+    }
+    .heading{
+        color:darkmagenta;
+        margin-bottom:0px;
+    }   
+    button{
+        text-align: center;
+        border-color: tomato;
+        border-radius: 8px;
+        height: 40px;
+        width:96px;
+        background-color: blue;
+        color:white;
+        margin: 10px;
+        cursor:pointer;
+    }
+    .link:hover{
+        font-size:18px;
+        color:darkblue;
+    }
+
+</style>
+</head>
+<body>
+    <section class="section-container">
+        <div id="slideEnglish" class="book-description">
+           <section style="display:flex;align-items:center;margin:12px;width:40%">
+              <img src="Images/7habits.jpg" height="75px" width="200px" class="book-image" >
+               <div>
+                   <h1 class="heading" >The7Habits of Highly Effective People</h1>
+                   <p><i>-Written by Stephen R.Covey</i></p><br>
+                   <a href="https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People" target="_blank" class="link">
+                      <i class="fa fa-hand-o-right" aria-hidden="true" style="margin:2px;"></i>Know More</a>
+               </div> 
+           </section>
+           <section style="display:flex;align-items:center;margin:12px;width:40%">
+              <img src="Images/richdadpoordad.jpg" height="75px" width="200px" class="book-image" >
+               <div>
+                   <h1 class="heading">Richdad Poordad</h1>
+                   <p><i>-Written by Robert T.Kiyosaki</i></p><br>
+                   <a href="https://en.wikipedia.org/wiki/Rich_Dad_Poor_Dad" target="_blank" class="link">
+                      <i class="fa fa-hand-o-right" aria-hidden="true" style="margin:2px;"></i>Know More</a>
+               </div> 
+           </section>
+           <section style="display:flex;align-items:center;margin:12px;width:40%">
+              <img src="Images/harrypoter.jfif" height="75px" width="200px" class="book-image" >
+               <div>
+                   <h1 class="heading">Harry Potter</h1>
+                   <p><i>-Written by J.K.Rowling</i></p><br>
+                   <a href="https://en.wikipedia.org/wiki/Harry_Potter" target="_blank" class="link">
+                      <i class="fa fa-hand-o-right" aria-hidden="true" style="margin:2px;"></i>Know More</a>
+               </div> 
+           </section>
+           <section style="display:flex;align-items:center;margin:12px;width:40%">
+              <img src="Images/how_to_win_friends_and_influence_people.jpg" height="75px" width="200px" class="book-image" >
+               <div>
+                   <h1 class="heading">How to Win Friends and Influence People</h1>
+                   <p><i>-Written by Dale Carnegie</i></p><br>
+                   <a href="https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People" target="_blank" class="link">
+                      <i class="fa fa-hand-o-right" aria-hidden="true" style="margin:2px;"></i>Know More</a>
+               </div> 
+           </section>
+           <section style="display:flex;align-items:center;margin:12px;width:40%">
+              <img src="Images/wings-of-fire-biography-kalam.jpg" height="75px" width="200px" class="book-image" >
+               <div>
+                   <h1 class="heading">WINGS OF FIRE</h1>
+                   <p><i>-Written by A P J Abdul Kalam & Arun Tiwari</i></p><br>
+                   <a href="https://en.wikipedia.org/wiki/Wings_of_Fire_(autobiography)" target="_blank" class="link">
+                       <i class="fa fa-hand-o-right" aria-hidden="true" style="margin:2px;"></i>Know More</a>
+               </div> 
+           </section>
+      </div>
+  </section>
+  <button onclick="back()">Back</button>  
+  <script src="books.js" ></script>
+
+</body>
+</html>

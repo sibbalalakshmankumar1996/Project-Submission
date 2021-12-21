@@ -1,0 +1,32 @@
+$(document).ready(function(){
+    $("#telugu").mouseover(function(){
+        $("#telugu").css({width:"150px"})
+    })
+    $("#telugu").mouseout(function(){
+        $("#telugu").css({width:"100px"})
+    })
+    $("#hindi").mouseover(function(){
+        $("#hindi").css({width:"150px"})
+    })
+    $("#hindi").mouseout(function(){
+        $("#hindi").css({width:"100px"})
+    })
+    $("#english").mouseover(function(){
+        $("#english").css({width:"150px"})
+    })
+    $("#english").mouseout(function(){
+        $("#english").css({width:"100px"})
+    })
+    $("#tamil").mouseover(function(){
+        $("#tamil").css({width:"150px"})
+    })
+    $("#tamil").mouseout(function(){
+        $("#tamil").css({width:"100px"})
+    })
+    $("#kannada").mouseover(function(){
+        $("#kannada").css({width:"150px"})
+    })
+    $("#kannada").mouseout(function(){
+        $("#kannada").css({width:"100px"})
+    })
+}) 

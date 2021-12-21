@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Demo</title>
+<meta charset="UTF-8">
+<meta name="keywords" content="put imp words from ur webpage" >
+<meta name="author" content="put name of author">
+<meta name="description" content="put short descr">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .section-container{
+        background-color:lightblue;
+        height: 105vh;
+        background-size:cover;
+    
+    }
+    .book-description{
+        display:flex;
+        flex-direction:row;
+        height:300px;
+        flex-wrap:wrap;
+        padding:16px;
+        
+    }
+    .book-image{
+        border-radius:20px;
+        margin-right:30px;
+        justify-content:center;
+        height:200px;
+    }
+    .heading{
+        color:darkmagenta;
+        margin-bottom:0px;
+    }   
+    button{
+        text-align: center;
+        border-color: tomato;
+        border-radius: 8px;
+        height: 40px;
+        width:96px;
+        background-color: blue;
+        color:white;
+        margin: 10px;
+        cursor:pointer;
+    }
+    .link:hover{
+        font-size:18px;
+        color:darkblue;
+    }
+</style>
+</head>
+<body>
+    <section class="section-container">
+        <div id="slideHindi" class="book-description">
+           <section style="display:flex;align-items:center;margin:12px;width:40%">
+              <img src="Images/Half-girlfriend-by-chetan-bhagat-pdf-book-in-hindi.jpg" height="75px" width="200px" class="book-image" >
+               <div>
+                   <h1 class="heading" >Half-Girlfriend</h1>
+                   <p><i>-Written by Chetan Bhagat</i></p><br>
+                   <a href="https://en.wikipedia.org/wiki/Half_Girlfriend" target="_blank" class="link">
+                      <i class="fa fa-hand-o-right" aria-hidden="true" style="margin:2px;"></i>Know More</a>
+               </div> 
+           </section>
+           <section style="display:flex;align-items:center;margin:12px;width:40%">
+              <img src="Images/godan.jpg" height="75px" width="200px" class="book-image" >
+               <div>
+                   <h1 class="heading">Godaan</h1>
+                   <p><i>-Written by Premchand</i></p><br>
+                   <a href="https://en.wikipedia.org/wiki/Godaan" target="_blank" class="link">
+                      <i class="fa fa-hand-o-right" aria-hidden="true" style="margin:2px;"></i>Know More</a>
+               </div> 
+           </section>
+           <section style="display:flex;align-items:center;margin:12px;width:40%">
+              <img src="Images/autobiography of yogi.jpg" height="75px" width="200px" class="book-image" >
+               <div>
+                   <h1 class="heading">Autobiography of Yogi</h1>
+                   <p><i>-Written by Paramahansa Yogananda</i></p><br>
+                   <a href="https://en.wikipedia.org/wiki/Autobiography_of_a_Yogi" target="_blank" class="link">
+                      <i class="fa fa-hand-o-right" aria-hidden="true" style="margin:2px;"></i>Know More</a>
+               </div> 
+           </section>
+           <section style="display:flex;align-items:center;margin:12px;width:40%">
+              <img src="Images/girl-n-room.jpeg" height="75px" width="200px" class="book-image" >
+               <div>
+                   <h1 class="heading">The Girl in Room 105</h1>
+                   <p><i>-Written by Chetan Bhagat</i></p><br>
+                   <a href="https://en.wikipedia.org/wiki/The_Girl_in_Room_105" target="_blank" class="link">
+                      <i class="fa fa-hand-o-right" aria-hidden="true" style="margin:2px;"></i>Know More</a>
+               </div> 
+           </section>
+           <section style="display:flex;align-items:center;margin:12px;width:40%">
+              <img src="Images/think-and-grow-rich-hindi-original.jpeg" height="75px" width="200px" class="book-image" >
+               <div>
+                   <h1 class="heading">Think and Grow Rich</h1>
+                   <p><i>-Written by S.L.Bhyrappa</i></p><br>
+                   <a href="https://en.wikipedia.org/wiki/Think_and_Grow_Rich" target="_blank" class="link">
+                       <i class="fa fa-hand-o-right" aria-hidden="true" style="margin:2px;"></i>Know More</a>
+               </div> 
+           </section>
+      </div>
+  </section>
+  <button onclick="back()">Back</button>  
+  <script src="books.js" ></script>
+
+    
+
+</body>
+</html>

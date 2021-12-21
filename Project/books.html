@@ -1,0 +1,113 @@
+<!DOCTYPE html><!-- dtd path : document type definition -->
+<html>
+<head>
+<title>Books</title>
+<meta charset="UTF-8">
+<meta name="keywords" content="put imp words from ur webpage" >
+<meta name="author" content="put name of author">
+<meta name="description" content="put short descr">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+    .language-container{
+        background-image:radial-gradient(aqua,antiquewhite,rgba(0,0,255,0.555),rgb(0,128,96));
+        height:100vh;
+        background-size:cover;
+    }
+    .language-container>h1{
+        color:rgb(104, 10, 104);
+        padding:18px;
+        text-align:center;
+        font-style:bold;
+    }
+    p{
+        text-align:center;
+        font-size:24px;
+    }
+    .flex-container{
+        height:200px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .language-img{
+        margin:20px 20px 0px 20px;
+        border:2px black solid;
+        border-radius: 20px;
+    }
+    button{
+        text-align: center;
+        border-color: tomato;
+        border-radius: 8px;
+        height: 40px;
+        width:96px;
+        background-color: blue;
+        color:white;
+        margin: 10px;
+        cursor:pointer;
+    }
+    footer{
+        text-align: center;
+        color: hsl(51, 100%, 50%);
+        margin-top: 70px;
+    }
+    .icon{
+        margin-right:20px;
+    }
+    .line{
+        margin-right:8px;
+        margin-left:8px;
+
+        border-width:1px;
+        border-color:grey;
+    }
+    
+</style>
+</head>
+<body>
+    <section class="language-container">
+        <h1>Are you curious to learn something new everyday?</h1>
+        <p style="color:rgb(209, 26, 26);">Welcome!...Here is the top 5 Books to acquire knowledge and to make it useful.</p>
+        <p style="color:rgb(222, 28, 240)">Just click on your comfortable language to get the list of top 5 books.</p>
+        <div class="flex-container">
+            <section>
+                <img src="Images\telugu.webp" height="100px" width="100px" class="language-img" onclick="telugu()" id="telugu">
+                <h3 style="text-align:center; color: red;">Telugu</h3>
+            </section>
+            <section>
+                <img src="Images\hindi.jpg" height="100px" width="100px" class="language-img" onclick="hindi()" id="hindi">
+                <h3 style="text-align:center; color:red;">Hindi</h3>
+            </section>
+            <section>
+                <img src="Images\english.jpg" height="100px" width="100px" class="language-img" onclick="english()" id="english">
+                <h3 style="text-align:center;color:red">English</h3>
+            </section>
+            <section>
+                <img src="Images\Tamil_word.png" height="100px" width="100px" class="language-img" onclick="tamil()" id="tamil">
+                <h3 style="text-align:center;color:red">Tamil</h3>
+            </section>
+            <section>
+                <img src="Images\kannada.jpg" height="100px" width="100px" class="language-img" onclick="kannada()" id="kannada">
+                <h3 style="text-align:center;color:red">Kannada</h3>
+            </section>
+
+        </div>
+        <div style="text-align:center; margin-bottom:24px;">
+            <button onclick="HomePage()">Home</button>
+        </div>
+        <footer>
+            <hr class="line">
+           <h1 class="headin">Follow us on</h1> 
+           <i class="fa fa-instagram fa-4x icon" aria-hidden="true" ></i>
+           <i class="fa fa-twitter fa-4x icon" aria-hidden="true" ></i>
+           <i class="fa fa-facebook fa-4x icon" aria-hidden="true" ></i><br><br>
+        </footer>
+</section>
+<script src="jqueryLogic.js"></script>
+<script src="books.js" ></script>
+</body>
+</html>

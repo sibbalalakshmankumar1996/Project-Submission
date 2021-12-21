@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Demo</title>
+<meta charset="UTF-8">
+<meta name="keywords" content="put imp words from ur webpage" >
+<meta name="author" content="put name of author">
+<meta name="description" content="put short descr">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .section-container{
+        background-color:lightblue;
+        height: 105vh;
+        background-size:cover;
+    
+    }
+    .book-description{
+        display:flex;
+        flex-direction:row;
+        height:300px;
+        flex-wrap:wrap;
+        padding:16px;
+        
+    }
+    .book-image{
+        border-radius:20px;
+        margin-right:30px;
+        justify-content:center;
+        height:200px;
+    }
+    .heading{
+        color:darkmagenta;
+        margin-bottom:0px;
+    }   
+    button{
+        text-align: center;
+        border-color: tomato;
+        border-radius: 8px;
+        height: 40px;
+        width:96px;
+        background-color: blue;
+        color:white;
+        margin: 10px;
+        cursor:pointer;
+    }
+    .link:hover{
+        font-size:18px;
+        color:darkblue;
+    }
+
+
+</style>
+</head>
+<body>
+    <section class="section-container">
+        <div id="slideTamil" class="book-description">
+           <section style="display:flex;align-items:center;margin:12px;width:40%">
+              <img src="Images/TPonniyin Selvan by Kalki.jpg" height="75px" width="200px" class="book-image" >
+               <div>
+                   <h1 class="heading" >Ponniyin Selvan</h1>
+                   <p><i>-Written by Kalki</i></p><br>
+                   <a href="https://en.wikipedia.org/wiki/Ponniyin_Selvan" target="_blank" class="link">
+                      <i class="fa fa-hand-o-right" aria-hidden="true" style="margin:2px;"></i>Know More</a>
+               </div> 
+           </section>
+           <section style="display:flex;align-items:center;margin:12px;width:40%">
+              <img src="Images/TSila Nerangalil Sila Manithargal by Jayakanthan.jpg" height="75px" width="200px" class="book-image" >
+               <div>
+                   <h1 class="heading">Sila Nerangalil Sila Manithargal</h1>
+                   <p><i>-Written by Jayakanthan</i></p><br>
+                   <a href="https://en.wikipedia.org/wiki/Sila_Nerangalil_Sila_Manithargal" target="_blank" class="link">
+                      <i class="fa fa-hand-o-right" aria-hidden="true" style="margin:2px;"></i>Know More</a>
+               </div> 
+           </section>
+           <section style="display:flex;align-items:center;margin:12px;width:40%">
+              <img src="Images/TKolaiyuthir Kaalam.jfif" height="75px" width="200px" class="book-image" >
+               <div>
+                   <h1 class="heading">Kolaiyuthir Kaalam</h1>
+                   <p><i>-Written by Sujatha</i></p><br>
+                   <a href="https://en.wikipedia.org/wiki/Kolaiyuthir_Kaalam_(novel)" target="_blank" class="link">
+                      <i class="fa fa-hand-o-right" aria-hidden="true" style="margin:2px;"></i>Know More</a>
+               </div> 
+           </section>
+           <section style="display:flex;align-items:center;margin:12px;width:40%">
+              <img src="Images/TSivagamiyin Sabatham.jpg" height="75px" width="200px" class="book-image" >
+               <div>
+                   <h1 class="heading">Sivagamiyin Sabatham</h1>
+                   <p><i>-Written by Kalki</i></p><br>
+                   <a href="https://en.wikipedia.org/wiki/Sivagamiyin_Sapatham" target="_blank" class="link">
+                      <i class="fa fa-hand-o-right" aria-hidden="true" style="margin:2px;"></i>Know More</a>
+               </div> 
+           </section>
+           <section style="display:flex;align-items:center;margin:12px;width:40%">
+              <img src="Images/TAmma Vanthaal by Thi.Janakiraman, Melati Mathur.jpg" height="75px" width="200px" class="book-image" >
+               <div>
+                   <h1 class="heading">Amma Vanthaal</h1>
+                   <p><i>-Written by Thi.Janakiraman</i></p><br>
+                   <a href="https://en.wikipedia.org/wiki/Amma_Vandhaal" target="_blank" class="link">
+                       <i class="fa fa-hand-o-right" aria-hidden="true" style="margin:2px;"></i>Know More</a>
+               </div> 
+           </section>
+      </div>
+  </section>
+  <button onclick="back()">Back</button>  
+  <script src="books.js" ></script>
+
+</body>
+</html>

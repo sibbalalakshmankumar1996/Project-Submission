@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lists Demo</title>
+<meta charset="UTF-8">
+<meta name="keywords" content="creating web pages" >
+<meta name="author" content="put name of author">
+<meta name="description" content="put short descr">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    section{
+        background-color:purple;
+        height:105vh;
+        border-radius:10px;
+    }
+    .img-details{
+        height:75vh;
+        display:flex;
+        justify-content:flex-start;
+    }
+    .books-image{
+        margin:24px;
+    }
+    .text-details{
+        height:75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h1{
+        color:gold;
+    }
+    h3{
+        color:salmon
+    }
+    button{
+        color:black;
+        font-size:18px;
+        text-align: center;
+        border-color: tomato;
+        border-radius: 10px;
+        height: 50px;
+        width:100px;
+        background-color: silver;
+        margin: 20px;
+    }
+    footer{
+        text-align: center;
+        color: hsl(51, 100%, 50%);
+        margin-top: 30px;
+    }
+    .icon{
+        margin-right:20px;
+    }
+    .line{
+        margin-right:8px;
+        margin-left:8px;
+
+        border-width:1px;
+        border-color:grey;
+    }
+</style>
+</head>
+<body>
+    <section>
+        <div class="img-details">
+  <img src="Images\books cover photo.jpg"  class="books-image">
+  <div class="text-details">
+  <h1>Books</h1>
+  <h3>A book is a medium for recording information in the form of writing or images, typically composed of many pages (made of papyrus, parchment, vellum, or paper) bound together and protected by a cover. The technical term for this physical arrangement is codex (plural, codices). A single sheet in a codex is a leaf and each side of a leaf is a page.</h3>
+<h3>Books help us to teach ourselves about history, the arts, science, religion, nature, mathematics, and technology, anything and everything in our universe and beyond. Books also help us to understand the effect that all those things have on us and our world. Books entertain and offer a great escape.</h3>
+  
+  <i class="fa fa-hand-o-right fa-2x" aria-hidden="true" style="margin:3px;">
+  <button onclick="clickHere()">Click Here</button>
+</i>  
+</div>
+</div>
+<footer>
+    <hr class="line">
+   <h1 class="headin">Follow us on</h1> 
+   <i class="fa fa-instagram fa-4x icon" aria-hidden="true" ></i>
+   <i class="fa fa-twitter fa-4x icon" aria-hidden="true" ></i>
+   <i class="fa fa-facebook fa-4x icon" aria-hidden="true" ></i><br><br>
+</footer> 
+</section>
+<script src="books.js" ></script>
+
+</body>
+</html>
